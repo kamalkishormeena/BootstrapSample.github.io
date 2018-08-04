@@ -2,13 +2,14 @@
 
 Bootstrap is an open source toolkit for developing with HTML, CSS, and JS. Quickly prototype your ideas or build your entire app with our Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful plugins built on jQuery.
 ### Download
-* Download all the files from https://getbootstrap.com/
+Download all the files from https://getbootstrap.com/
 
 ### Screenshots
+<img src="Screenshots/DesktopView.png" height="180" width="300"> <img src="Screenshots/TabletView.png" height="180" width="300"> <img src="Screenshots/mobileView.png" height="180" width="120">
 
 
 ### HTML codes
-* Add below line in your html file and link downloaded CSS and Java file.
+Add below line in your html file and link downloaded CSS and Java file.
 ```sh
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <!-- Bootstrap -->
@@ -21,7 +22,7 @@ Bootstrap is an open source toolkit for developing with HTML, CSS, and JS. Quick
 	<script src="js/popper.min.js"></script> 
 	<script src="js/bootstrap-4.0.0.js"></script>
 ```
-* Add some line in your Style.css file, to changes view according to the screen resolution.
+Add some line in your Style.css file, to changes view according to the screen resolution.
 ```sh
 /*mobile view*/
 @media (min-width:480px){
