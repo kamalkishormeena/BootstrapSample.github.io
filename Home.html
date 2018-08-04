@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Home</title>
+	  <link rel="stylesheet" href="style.css">
+    <!-- Bootstrap -->
+	<link href="css/bootstrap-4.0.0.css" rel="stylesheet">
+	
+  </head>
+  <body>
+  	<!-- body code goes here -->
+
+
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+	<script src="js/jquery-3.2.1.min.js"></script>
+
+	<!-- Include all compiled plugins (below), or include individual files as needed -->
+	<script src="js/popper.min.js"></script> 
+	<script src="js/bootstrap-4.0.0.js"></script>
+	  
+	  <div class="topnav parallax">
+		  <div class="headover">
+	  <nav class="navigation">
+  <ul>
+	
+    <li><a href="#"><span>Privacy</span></a></li>
+    <li><a href="#"><span>Sitemap</span></a></li>
+    <li><a href="#"><span>Newsletter</span></a></li>
+    <li class="account"><a href="#"><span>My Account</span></a></li>
+  </ul>
+		 
+</nav>
+	   
+		  <script>
+		  
+			  var btn=document.querySelector('.btn');
+			  var menu=document.querySelector('.menu');
+			  var close=document.querySelector('.close');
+			  var overlay=document.querySelector('.overlay')
+			  
+			  btn.addEventListener('click', function(){
+				  menu.className+=' open';
+				  overlay.className+=' open';
+			  })
+			  close.addEventListener('click', function(){
+				  menu.className= 'menu';
+				  overlay.className+= 'overlay';
+			  })
+			  
+			  windows.addEventListener('click', function(event){
+				  if(event.target === overlay){
+					  menu.className = 'menu';
+					  overlay.className = 'overlay';
+				  }
+			  })
+		  </script>
+		  
+		  
+	  <div Class="Intro">
+	  Explore World</div>
+			  <a href="join.html"><button class="button">join Us</button></a></div></div>
+	  
+	  
+	  
+	  <div class="container">
+		  <h1>Creater</h1><br>
+	  	<img src="images/untitled-1.png" class="imgcircle" />
+	  <div class="container_text">
+		  <p>Hii everyone,
+
+			I am Kamal Kishor Meena. I am from Udaipur, Rajasthan. I studied Information Technology (IT) in College Of Technology & Engineering. I also do my best in drawing and painting. I love to travel and explore places.
+
+			</p>
+		  </div>
+	  
+	  </div>
+	  <footer><div class="footer">
+		<nav class="bottomnav" id="inline">
+  <ul>
+    <li><a href="#"><span>Privacy </span></a></li>
+    <li><a href="#"><span>Sitemap</span></a></li>
+    <li><a href="#"><span>Newsletter</span></a></li>
+    <li class="account"><a href="#"><span>My Account</span></a></li>
+  </ul>
+</nav>
+		  
+		  &copy;kkmeena
+		  </div></footer>
+  </body>
+	
+</html>
