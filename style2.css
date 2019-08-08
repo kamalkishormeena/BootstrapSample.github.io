@@ -9,7 +9,7 @@ body{
 }
 
 /*Intro*/
-.topnav{background:url(../../../OGQ/FWY_3440x1440.jpg); width:auto; height: 960px;margin-bottom: -500px;}
+.topnav{background:url(images/FWY_3440x1440.jpg); width:auto; height: 960px;margin-bottom: -500px;}
 .headover{background: rgba(0,0,0,0.27); height: inherit}
 .parallax{background-size: cover; position: 100% auto; background-repeat: no-repeat; background-attachment: fixed; position: relative;}
 
